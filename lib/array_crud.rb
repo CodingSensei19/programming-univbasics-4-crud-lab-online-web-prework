@@ -1,5 +1,10 @@
 def create_an_empty_array
-  
+  #!/usr/bin/env ruby
+array = Array.new
+3.times do
+str = gets.chomp
+array.push str
+end
 end
 
 def create_an_array
