@@ -27,11 +27,11 @@ end
 
 def remove_element_from_end_of_array(array)
   >> x = [4,5,6]
-  => [4, 5, 6]                                                            
-  >> x.shift 
+  => [4, 5, 6]
+  >> x.shift
   => 4
-  >> x                                                                    
-  => [5, 6] 
+  >> x
+  => [5, 6]
 end
 
 def remove_element_from_start_of_array(array)
