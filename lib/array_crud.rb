@@ -26,7 +26,10 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-
+  a = [1,2,3,4,5,6]
+  a.take 3 # => [1, 2, 3]
+  a.first 3 # => [1, 2, 3]
+  a.first a.size - 1 # to get rid of the last one
 end
 
 def remove_element_from_start_of_array(array)
