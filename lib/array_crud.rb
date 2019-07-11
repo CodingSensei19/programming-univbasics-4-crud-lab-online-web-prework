@@ -52,7 +52,7 @@ end
 
 def retrieve_first_element_from_array(array)
   h = {
-     "side1" => ["green", "Green"], 
+     "side1" => ["green", "Green"],
      "side2" => ["verde", "Verde"]
   }
 end
