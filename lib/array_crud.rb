@@ -7,7 +7,11 @@ array.push str
 end
 
 def create_an_array
-
+  #!/usr/bin/ruby
+  
+  names = Array.new(20)
+  puts names.size  # This returns 20
+  puts names.length # This also returns 20
 end
 
 def add_element_to_end_of_array(array, element)
