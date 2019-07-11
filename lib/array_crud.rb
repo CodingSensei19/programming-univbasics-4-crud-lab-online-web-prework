@@ -42,7 +42,12 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-
+  2.4.0 :004 > a = ["a", "b", "c"]
+   => ["a", "b", "c"]
+  2.4.0 :005 > a.find_index("a")
+   => 0
+  2.4.0 :006 > a.find_index(["b", "c"])
+   => nil
 end
 
 def retrieve_first_element_from_array(array)
