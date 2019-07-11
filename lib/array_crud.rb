@@ -5,7 +5,6 @@ array = Array.new
 str = gets.chomp
 array.push str
 end
-end
 
 def create_an_array
 
