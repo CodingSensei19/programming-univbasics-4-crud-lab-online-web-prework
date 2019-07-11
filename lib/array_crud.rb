@@ -58,7 +58,8 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-
+  a[-1] # => 5
+  b[-1] # => 6
 end
 
 def update_element_from_index(array, index_number, element)
